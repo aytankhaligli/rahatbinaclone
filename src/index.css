@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700&display=swap");
+body {
+  font-family: "Nunito", sans-serif;
+}
+.react-calendar {
+  width: 710px !important;
+  background-color: #374151 !important;
+  border: none !important;
+}
+.react-calendar__navigation__label,
+.react-calendar__navigation__arrow {
+  color: #727cf5 !important;
+  background-color: rgba(114, 124, 245, 0.1) !important;
+}
+.react-calendar__tile {
+  width: 84px !important;
+  height: 43px !important;
+}
+.react-calendar__month-view__weekdays__weekday {
+  text-decoration: none !important;
+}
+abbr {
+  text-decoration: none !important;
+}
+.side-nav:hover {
+  padding-left: 120px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  transition: all 0.3ms;
+}
+.side-nav:hover .side-text {
+  display: inline;
+}
+.side-nav:hover .side-icon {
+  color: white;
+}
